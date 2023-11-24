@@ -5,7 +5,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'https://xhfl160321.github.io/eduH/';
+$email_from = 'https://xhfl160321.github.io/eduH/index.html';
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
               "USer Email: $visitor_email.\n".
@@ -18,5 +18,5 @@ $headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to, $email_subject, $email_body, $headers);
 
-header("Location: ./lib/contact.html");
+header("Location: ./contact.html");
 ?>
