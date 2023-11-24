@@ -1,29 +1,19 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>ehuH</title>
+<?php include_once "inc/start.html" ?>
+
 </head>
 <body>
     <!-- HOME 페이지 -->
     <section class="home">
         <header>
-            <a href="./index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+            <a href="./index.php"><img src="./img/logo.png" alt="logo" class="logo"></a>
             <nav class="nav_links" id="navLinks">
                 <i class="fa-solid fa-xmark"></i>
                 <ul>
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./lib/about.html">ABOUT</a></li>
-                    <li><a href="./lib/course.html">COURSE</a></li>
-                    <li><a href="./lib/blog.html">BLOG</a></li>
-                    <li><a href="./lib/contact.html">CONTACT</a></li>
+                    <li><a href="./index.php">HOME</a></li>
+                    <li><a href="./lib/about.php">ABOUT</a></li>
+                    <li><a href="./lib/course.php">COURSE</a></li>
+                    <li><a href="./lib/blog.php">BLOG</a></li>
+                    <li><a href="./lib/contact.php">CONTACT</a></li>
                 </ul>
             </nav>
             <i class="fa-solid fa-ellipsis"></i>
@@ -147,21 +137,4 @@
         <a href="#" class="contact_btn">Contact Us</a>
     </section>
 
-    <!-- footer -->
-    <footer class="footer">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis repudiandae placeat consequatur sunt possimus <br> a impedit iste et error similique corrupti qui explicabo inventore animi ratione eveniet, illo reiciendis magnam.</p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-solid fa-at"></i>
-        </div>
-        <p>Made with <i class="fa-regular fa-heart"></i> by xhfl160321</p>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="script/script.js"></script>
-    
-</body>
-</html>
+<?php include_once "./inc/footer.html" ?>
