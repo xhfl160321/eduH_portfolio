@@ -1,9 +1,9 @@
 <?php
 // contact 페이지 각 서식을 받는 함수
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$name = $_GET['name'];
+$visitor_email = $_GET['email'];
+$subject = $_GET['subject'];
+$message = $_GET['message'];
 
 $email_from = 'https://xhfl160321.github.io/eduH/';
 $email_subject = 'New Form Submission';
